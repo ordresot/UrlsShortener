@@ -30,6 +30,7 @@
 ```bash
 git clone https://github.com/yourusername/url-shortener.git
 cd url-shortener
+```
 
 ### 2. Компиляция проекта
 
@@ -39,6 +40,7 @@ mkdir -p out
 
 # Компилируем все Java файлы
 javac -d out $(find src/main/java -name "*.java")
+```
 
 ### 3. Запуск приложения
 
@@ -48,6 +50,7 @@ cd out
 
 # Запускаем главный класс
 java com.urlshortener.Main
+```
 
 ## Конфигурация
 
@@ -65,6 +68,7 @@ base.url=clck.ru/
 # Длина генерируемого кода (рекомендуется 4-10 символов)
 # По умолчанию: 6
 short.code.length=6
+```
 
 ## Использование
 
