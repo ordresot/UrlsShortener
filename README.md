@@ -31,7 +31,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/yourusername/url-shortener.git
+git clone https://github.com/ordresot/UrlsShortener.git
 cd url-shortener
 ```
 
